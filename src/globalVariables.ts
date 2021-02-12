@@ -1,5 +1,4 @@
 export const alanKey = '7ea99b26caf2578609ccc67345da07452e956eca572e1d8b807a3e2338fdd0dc/stage';
-export const alanLogoSrc = 'https://alan.app/voice/images/previews/preview.jpg';
 
 export const infoCards = [
     { color: '#00838f', title: 'Latest News', text: 'Give me the latest news' },

@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import alanBtn from '@alan-ai/alan-sdk-web';
 import NewsCards from './components/NewsCards/NewsCards';
 import useStyles from './styles'
-import { alanKey, alanLogoSrc } from './globalVariables';
+import { alanKey } from './globalVariables';
 import wordsToNumbers from 'words-to-numbers';
+import logo from './img/alan_ai_logo.jpg'
 
 function App() {
   const classes = useStyles();
@@ -49,7 +50,7 @@ function App() {
   return (
     <div className="App">
       <div className={classes.logoContainer}>
-        <img src={alanLogoSrc} className={classes.alanLogo} alt="alan logo"/>
+        <img src={logo} className={classes.alanLogo} alt="alan logo"/>
       </div>
       <NewsCards articles={activeArticles} activeActicle={activeArticle}/>
     </div>
